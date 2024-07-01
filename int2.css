@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color: #EFEFEF;
+    border-bottom:1px solid #303030;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+.menu-line{
+    display: none;
+}
+.navitem{
+    display: flex;
+    list-style: none;
+    gap: 20px;    
+}
+.navitem li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Quattrocento',sans-serif;
+}
+
+.logo a{
+display: flex;
+color: #000;
+text-decoration: none;
+font-family: 'Oswald',sans-serif;
+font-weight: 500;
+font-size: 32px;
+margin-right: 100px;
+}
+.logo a span{
+    color: #666;
+}
+.social-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.social-list li a{
+    color: #303030;
+    align-items: center;
+    display: flex;
+    padding: 25px 0px;
+}
+.navitem li a:hover{
+    color: #666;
+    border: 2px solid transparent;
+    border-top-color: #303030;
+    border-bottom-color: #303030;
+    transition: 0.1s;
+    padding: 5px 0px;
+}
+.maincontainer{
+     display: grid; 
+     grid-template-columns: repeat(3, 1fr); 
+    background-color:#EFEFEF;
+    width: 100%;
+    height: 100vh;
+}
+.service{
+    width: 60%;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 70px;
+    top: 70px;
+    background-color: #EFEFEF;
+}
+.service span{
+    display: flex;
+    justify-content: start;
+    font-family: 'Oswald',sans-serif;
+    font-size: 30px;
+}
+.webcontainer{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.web{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald',sans-serif;
+    font-family: 500;
+    font-size: 20px;
+}
+.web img{
+    width: 40px;
+}
+.webcontainer span{
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 17px;
+    color: #909090;
+}
+   
+
+.uicontainer span{
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 17px;
+    color: #909090;
+}
+.ui{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald',sans-serif;
+    font-family: 500;
+    font-size: 20px;
+}
+.ui p{
+    position: relative;
+    right: 40px;
+}
+.ui img{
+    width: 80px;
+    position: relative;
+    right: 23px;
+    top: 10px;
+}
+.webcc{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.webcc span{
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 17px;
+    color: #909090;
+}
+
+.webc{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald',sans-serif;
+    font-family: 500;
+    font-size: 20px;
+}
+.webc p{
+    position: relative;
+    right: 45px;
+}
+.webc img{
+    width: 90px;
+    position: relative;
+    right: 25px;
+    top: 10px;
+}
+
+.webcc span {
+    position: relative;
+    bottom: 10px;
+}
+.uicontainer span{
+    position: relative;
+    bottom: 10px;
+}
+
+
+.logomc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+}
+.logo{
+    font-family: 'Oswald',sans-serif;
+    font-size: 55px;
+    
+}
+.logoimg{
+    background-color: #CAC6BB;
+    height: 300px;
+    position: relative;
+    bottom: 30px;
+}
+.logoimg img{
+    height:100% ;
+}
+
+
+.hirec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0px 30px 5px ;
+    row-gap: 30px;
+
+}
+.hiredcp{
+    display: flex;
+    flex-direction: column;;
+    height: 55%;
+    justify-content: space-between;
+}
+.hirem{
+    font-family: 'Oswald',sans-serif;
+    font-size: 25px;
+}
+.hirep{
+    row-gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #909090;
+}
+.hirebtn{
+    width: 80px;
+    height: 35px;
+}
+
+.hirebtn button{
+    width: 100%;
+    height: 100%;
+    background-color: #303030;
+    color: white;
+    font-family: 'Quattrocento',sans-serif;
+    cursor: pointer;
+}
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.exp span{
+    display: flex;
+    flex-direction: column;
+    font-family: 'oswald',sans-serif;
+    font-size: 20px;
+}
+.exp span p{
+    display: flex;
+    font-family:'Quattrocento' ;
+    font-size: 15px;
+}
+
+@media(max-width: 905px){
+.container .navitem{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-line {
+    display: flex;
+    cursor: pointer;  
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+.service{
+    width: 50%;
+    height: 40%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+     flex-direction: row;
+     margin-bottom: 100px;
+}
+.webcontainer{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.uicontainer{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.webcc{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.hirec{
+
+    width: 90%;
+    margin-top: 25px;
+}
+.hiredcp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+}
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+.hirem{
+    width: 30%;
+}
+.hirep{
+    width: 50%;
+}
+.exp{
+    margin-left: 20px;
+}
+.logomc{
+    display: flex;
+    width: 40%;
+    height: 60%;
+}
+.logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+}
+}
+
+@media(max-width: 735px){
+ 
+    .maincontainer{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .logomc{
+        display: flex;
+        gap: 25px;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 40%;
+    }
+    .logoimg {
+        width: 30%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .service{
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 0;
+        left: 50px;
+;
+    }
+    .service span{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+    .hirec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        height: 30%;
+    }
+    .uicontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-list{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 680px){
+    .exp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hirec{
+        width: 90%;
+        margin-top: 55px;
+    }
+}
